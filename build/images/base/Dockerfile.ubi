@@ -13,7 +13,7 @@
 # limitations under the License.
 
 ARG BUILD_TAG
-FROM ubuntu:22.04 as cni-binaries
+FROM ubuntu:24.04 as cni-binaries
 
 ARG CNI_BINARIES_VERSION
 ARG WHEREABOUTS_VERSION=v0.6.1
